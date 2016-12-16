@@ -1,0 +1,36 @@
+#
+# Copyright (c) 2003 TIBCO Software Inc.
+# All Rights Reserved.
+#
+#
+# This software is the confidential and proprietary information of
+# TIBCO Software Inc.
+#
+
+# Set the PATH and LIBRARY_PATH
+tibco.env.PATH=C\:/tibco/tra/5.9/hotfix/bin;C\:/tibco/tra/5.9/bin;C\:/tibco/tpcl/5.9/bin;C\:/tibco/tibrv/8.4/bin;C\:/tibco/hawk/5.1/bin;%PATH%
+
+tibco.env.PSP=;
+
+# Specifies the JVM to be used to launch this application
+java.library=C\:/tibco/tibcojre64/1.6.0/bin/client/jvm.dll
+#java.library=C\:/Program Files (x86)/Java/jdk1.6.0_25/jre/bin/client/jvm.dll
+java.heap.size.initial=8m
+java.heap.size.max=32m
+java.thread.stack.size=128k
+
+
+# Specifies the class to launch
+java.start.class=com.bunge.icc.tibco.adapter.tests.TestTibcoAdapter
+
+# Specifies the main function to invoke
+java.start.method=start
+
+# Specifies the function to shutdown
+java.stop.method=stop
+
+#java properties
+tibco.class.path.extended=C\:/tibco/adapter/fixadapter/lib;C\:/tibco/tra/5.9/hotfix/lib;C\:/tibco/hawk/5.1/lib;C\:/tibco/tra/5.9/lib;C\:/tibco/tpcl/5.9/lib;C\:/tibco/tibrv/8.4/bin;C\:/tibco/tibrv/8.4/lib/tibrvj.jar;C\:/tibco/tpcl/5.9/tomcat/lib;C\:/tibco/tpcl/5.9/tomcat/server/lib;C\:/tibco/tpcl/5.9/tomcat/common/lib;C\:/tibco/tpcl/5.9/ant/lib;C\:/tibco/tpcl/5.9/lib/entrust
+
+# Define application command line.
+#application.args=-system\:propFile c\:/LdapAdapter/bin/ldapadapter.tra

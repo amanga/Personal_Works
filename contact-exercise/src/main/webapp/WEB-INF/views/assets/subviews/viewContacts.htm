@@ -1,0 +1,32 @@
+<div class="container">
+	<div class="resourceLink-container">
+		<h1 class="underlined">List of Contacts</h1>
+	</div>
+	<div class="container" ng-controller="ModelContactInfoController">
+		<div class="row">
+			<div class="col-md-2 pull-right">
+				<button class="btn btn-primary" ng-click="add()" ng-disabled="loading">Add New</button>
+			</div>
+		</div>
+		<div class="row"></div>
+		<div class="row">
+			<div class="col-md-12">
+				<table class="table">
+					<thead>
+						<tr><th>Name</th><th>Street</th><th>City</th><th>Country</th></tr>						
+					</thead>
+					<tbody>
+						<tr ng-repeat="item in contactItems" ng-include="'contactTemplate.htm'"></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/ng-template" id="contactTemplate.htm">
+	<td><a ng-click="selectedContact(item)" style="cursor:pointer">{{item.lastName}},{{item.firstName}}</a></td> 
+	<td>{{(item.adress!=null)?item.adress[0].street:'n/a'}}</td> 
+	<td>{{(item.adress!=null)?item.adress[0].city:'n/a'}}</td>
+	<td>{{(item.adress!=null)?item.adress[0].country:'n/a'}}</td>
+</script>
