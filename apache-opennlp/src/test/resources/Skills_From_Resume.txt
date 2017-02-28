@@ -1,0 +1,449 @@
+JITENDRA BABU VASANTHU 
+.
+PROFESSIONAL SUMMARY
+Dedicated, resourceful as Technical Lead & Architect  with 18 years experience and a specialization in  <START:Skill> Java <END>  1.7, <START:Skill> J2EE <END> , <START:Skill> Struts <END>  1.2,  <START:Skill> Spring <END>  4.x, Grails 3.x/ <START:Skill> Groovy <END>  2.5,  <START:Skill> jQuery <END> ,  <START:Skill> AngularJS <END> ,  <START:Skill> NodeJS <END>  and  <START:Skill> ExtJS <END>  technologies.
+Highly skilled implementing applications through the SDLC, from concept to customer delivery. Pivotal technical resource to organizations such as  <START:Organization> Baker Hughes <END> ,  <START:Organization> IEEE <END> ,  <START:Organization> Citibank <END> , and  <START:Organization> Ameritrade <END> .
+Outstanding ability to gather and translate complex user requirements into practical, cost-effective software solutions.
+Innovative thinker, bringing proactive solutions to difficult or high-pressure situations.
+Experience in E-Commerce and Consumer based web applications. Creating accordion checking in and checking out products. Consistent and well-organized performer with the flexibility to adapt to constantly shifting priorities.
+Recognized for partnering with business leaders and technical teams to plan, integrate, document and execute complex project plans on time/on budget.
+I am a Java/J2EE expert, with an emphasis on developing rich Web Applications. I like to use agile frameworks like Grails/Groovy Technologies, and have a lot of expertise in  javascript frame works  <START:Skill> jQuery <END> ,  <START:Skill> NodeJS <END> ,  <START:Skill> ExtJS <END>  using  <START:Skill> Ajax <END>  development and complex  <START:Skill> JavaScript <END>  code.
+Experience in fast rapid application development using latest framework  like Grails using Domain Specific Language(DSF). Creating index files using Lucene Grails Plugin. Scheduling Jobs using Quartz Grails Plugin.  <START:Skill> XML <END>  parsing using XMLSlupper.  <START:Skill> REST <END>  and  <START:Skill> SOAP <END> (CXF)  <START:Skill> Web Services <END>  using Grails and render JSON objects to the UI.
+ Experience in  <START:Skill> Angular JS <END>  frame works for Development of SPA(Single Page Application). Created Angular JS using Controllers, Services and reder data to  <START:Skill> JSP <END>  pages. Leveraged angular resources for all data access, encapsulating URLs and standardizing data access interfaces 
+I can lead a small team of coders to develop a web project using agile methodologies, or provide valuable advice about technology choices. Whatever your domain, if it is linked to online systems, I'll be able to offer per formant solutions. 
+Developed Java web interface into a Rich Internet Application using  <START:Skill> ExtJS <END>  and Groovy on Grails. Created a Live Interface Viewer that showed a real-time content of a single interface selected by the user.
+Converted many common UI elements into defined Ext components: Wizard panel showing any number of forms (one at a time) with search panels and tree driven data items
+
+PROFESSIONAL EXPERIENCE: 
+
+
+
+Bakers Hughes, Houston, TX
+					June 2013 - Present
+Baker Hughes-- developed system called eFacts to which is a planning system for their employees. The system allows the project planner to find drillers from all over the world for their available projects.
+As Lead Programmer/Analyst, was involved in the design and development using Agile Methodologies. 
+Developing Customized web interface and Guide the team to implement UI Frame work using  <START:Skill> ExtJS <END>  Framework, Grids, Forms, Stores, Models and  <START:Skill> AJAX <END>  calls.
+Developed and guided the team to develop  <START:Skill> Webservice <END>  calls using  <START:Skill> SOAP <END>  and Testing  <START:Skill> Webservices <END>  using  <START:Skill> SOAP <END>  UI.
+Provided technical expertise to Management and Architects teams
+Technologies and tools:  <START:Skill> J2EE <END> ,  <START:Skill> Web Services <END> , <START:Tool> Weblogic  <END> ,  <START:Tool> RAD  <END> , Oracle and Grails/Groovy
+Utilized Agile process to streamline development process with iterative development
+Helped implement and deploy large scale CMS application. Including migration of extensive content database.
+Designed and developed Grails/Groovy applications. Developed CMS application using Grails/Groovy.
+Develop, implement, and maintain an asynchronous,  <START:Skill> AJAX <END>  based rich client for improved customer experience.
+Configure and integrated  <START:Skill> Hibernate <END>  ORM tool with Weblogic and Tomcat servers.
+Develop, implement, and maintain an MVC architecture utilizing  <START:Skill> Struts <END>  framework for large enterprise software tool
+Experience in writing perl scripts, mod perl and coverted cgi-perl application to java/ <START:Skill> J2EE <END> 
+Developed  <START:Skill> ExtJS <END>  Grids, Stores and forms and Panels to get the data from the backend and send to data to backend using  <START:Skill> AJAX <END>  calls
+Developed  <START:Skill> ExtJS <END>  Grids, Stores and forms and Panels to get the data from the backend and send to data to backend using  <START:Skill> AJAX <END>  calls.
+Implemented in  <START:Skill> ExtJS <END>  views and layouts. Defining Models to retrive data from a controllers and created data entry forms.
+Created Single Page Application using  <START:Skill> AngularJS <END> , Wrote  <START:Skill> AngularJS <END>  controllers, views and services.
+
+Environment: Java 1.7, <START:Skill> HTML <END>  5.0,  <START:Skill> CSS <END>  3.0, <START:Skill> JSP <END>  STRUTS 2, 0,  <START:Skill> Spring <END> ,  <START:Skill> Hibernate <END> , , SERVLETS,, UML,  <START:Skill> XML <END> ,  <START:Skill> J2EE <END>  1.4, GRAILS 3.1/GROOVY 2.5, <START:Skill> Active MQ <END> ,  <START:Skill> JMS <END> ,  <START:Skill> AngularJS <END> ,  <START:Skill> SOAP <END> ,  <START:Skill> REST <END> ,  <START:Tool> Weblogic <END>   10, Oracle 8.0, Bootstrap, Jira,Microsoft  <START:Skill> SQL <END>  server 14.0,  <START:Skill> XML <END> , JSON, Apache Tomcat 7, NoSQL,TOAD, Subversion, UNIX (Solaris 2.7/2.6), Windows NT 4.0
+ 
+ 
+JB Techsystems Inc, Princeton NJ 
+					Aug 2010 - June 2013 
+Lilly-- developed project called iConnect --enhanced their existing system taking online orders from physicians and connected to the storage systems.
+Responsibilities included:
+Created Single Page Application using  <START:Skill> AngularJS <END> , Wrote  <START:Skill> AngularJS <END>  controllers, views and services.
+Developed and Implemented  <START:Skill> Web Services <END>  and used Spring Framework
+Prepare Java/ <START:Skill> J2EE <END>  development structure for Eclipse,  <START:Skill> Maven <END> 
+Implemented Persistence layer using  <START:Skill> Hibernate <END>  to interact with the Oracle database, Used 	 <START:Skill> Hibernate <END>  Framework for object relational mapping and persistence
+Extensive experience using framework APIs like  <START:Skill> Struts <END> , Spring and  <START:Skill> Hibernate <END> 
+Used  <START:Skill> Web Services <END>  for creating rate summary and used WSDL and  <START:Skill> SOAP <END>  messages for getting insurance plans from different module and used  <START:Skill> XML <END>  parsers for data retrieval
+Designed and Devloped internal applications using Grails/Groovy Frame work
+Involved in the creation of interface to manage user menu and Bulk update of Attributes using  <START:Skill> AngularJS <END> ,  <START:Skill> ExtJS <END>  and  <START:Skill> jQuery <END> 
+Developed  <START:Skill> AJAX <END>  scripting to process server side  <START:Skill> JSP <END>  scripting
+
+Environment: Java 1.7, <START:Skill> HTML <END>  5.0,  <START:Skill> CSS <END>  3.0, <START:Skill> JSP <END>   <START:Skill> Struts <END>  2, 0,  <START:Skill> Spring <END> ,  <START:Skill> Hibernate <END> , , SERVLETS,, UML,  <START:Skill> XML <END> ,  <START:Skill> J2EE <END>  1.4, GRAILS/GROOVY 2.5, Active MQ,  <START:Skill> JMS <END> ,  <START:Skill> AngularJS <END> ,  <START:Skill> SOAP <END> ,  <START:Skill> REST <END> , Weblogic 10, Oracle 8.0, Bootstrap, Jira,Microsoft  <START:Skill> SQL <END>  server 14.0,  <START:Skill> XML <END> , JSON, Apache Tomcat 7, NoSQL,TOAD, Subversion, UNIX (Solaris 2.7/2.6), Windows NT 4.0
+IEEE, 445 Hoes Lane, Piscataway, NJ
+March 2006 – July 2010 
+As Lead Programmer/Analyst, was involved in the design and development of a IEEE Xplore Application. Xplore application publishes the Publications, Volumes and Article information.
+Responsibilities included:
+Managed the runtime group, which develops all product features and enhancements. Planned the development schedule for two major releases. 
+Heavily involved in recruitment and hiring. Instituted branch-based development and cross-functional project plans.
+ Led the QA effort, with particular attention to identifying feature gaps, reviewing design proposals, creating automated tests and improving the development process. 
+Core contributor to developing a Web software product for web and authentication using  <START:Skill> JSP <END> , Servlets (Weblogic),  <START:Skill> EJB <END>  and Oracle
+Prioritized work based on time and resource availability, and currently supplies ongoing technical support.
+Developed search software using Lucene, Verity search engine.
+Maintain Publication, Volume and Articles data in oracle relational database.
+Wrote complex query’s using joins in  <START:Skill> Hibernate <END> 
+Designed and developed Grails/Groovy applications. Developed CMS application using Grails/Groovy
+Configure  <START:Skill> Hibernate <END>  ORM tool with Weblogic server.
+Developing Customized web interface with  <START:Skill> JSP <END>  using  <START:Skill> Struts <END>  controls
+Involved in Java Server Pages ( <START:Skill> JSP <END> ) development for dynamic content generation and personalized content delivery. 
+
+Environment: Java 1.5, <START:Skill> HTML <END>  5.0,  <START:Skill> CSS <END>  3.0, <START:Skill> JSP <END>   <START:Skill> Struts <END>  1.2,  <START:Skill> Spring <END> ,  <START:Skill> Hibernate <END> , SERVLETS ,  <START:Skill> XML <END> ,  <START:Skill> J2EE <END>  1.4, GRAILS/GROOVY 1.2,,  <START:Skill> SOAP <END> ,  <START:Skill> REST <END> , Tomcat 6.0, Weblogic 10, Dreamweaver 4, Oracle 8.0, TOAD, Subversion, UNIX (Solaris 2.7/2.6), Windows NT 4.0
+
+
+Citigroup, One Court Square, LIC, NY
+March 2003 – March 2006 
+As Lead Programmer, was involved in the design and development of a Compliance Reporting System and the Transaction Trend Monitoring System. Responsibilities included:
+
+
+Designed and implemented  <START:Skill> Struts <END>  extensions including a validation enhancement which allows exclusive reliance on the internal  <START:Skill> Struts <END>  form validation mechanism 
+Developed Action Handler, Action Forms and Action Beans in  <START:Skill> Struts <END>  framework 
+Developed  <START:Skill> J2EE <END>  high level detail design document 
+Parsed  <START:Skill> XML <END>  templates using DOM parsers 
+Developed and configured applications from start to end 
+Created requirements documents and use cases to assist software development teams with their technical specifications 
+Developed PDF templates using iText and Excel using POI API 
+Developed site Authentication using LDAP API with Site Minder 
+Wrote Perl Scripts for system programming 
+Acquired user requirements develop applications based on their views 
+Knowledge and work experience in ASSET / Risk Management
+Handled Object Oriented Design (OOD) using UML. Used MVC to develop UML diagrams 
+Created Session Beans to retrieve records from the database 
+Developed Java Mail applications using SMTP, POP3 protocols 
+Environment: Java 1.4,  <START:Skill> JSP <END>   <START:Skill> Struts <END> , Servlets,  <START:Skill> EJB <END> ,  UML,  <START:Skill> XML <END> ,  <START:Skill> J2EE <END>  1.3, Apache Web Server, Weblogic 6.1, Dreamweaver 4, Net Beans 6.0,  <START:Skill> CSS <END> , Imaging, MS Access, Visio Professional, Oracle 8.0,  <START:Skill> SOAP <END> ( <START:Skill> Web Services <END> ),  <START:Skill> Hibernate <END> , Weblogic 8.1,Websphere 7.0, TOAD, PVCS, UNIX (Solaris 2.7/2.6), Windows NT 4.0
+CNF Inc. , Beaverton, OR
+July 2002 –March 2003 
+As Senior Programmer, responsibilities included:
+Wrote  <START:Skill> JSP <END>   <START:Skill> Struts <END>  to upload and download files from the web 
+Called stored procedures using Java components 
+Designed and implemented several  <START:Skill> Struts <END>  extensions including a validation enhancement which allows exclusive reliance on the internal  <START:Skill> Struts <END>  form validation mechanism 
+Called stored procedures and PL/ <START:Skill> SQL <END>  queries from CF templates 
+Wrote client side validations using _JavaScript 
+Migrated Cold Fusion application to Java,  <START:Skill> JSP <END>  and Java beans 
+Developed  <START:Skill> J2EE <END>  high level detail design document 
+Parsed  <START:Skill> XML <END>  templates using DOM parsers 
+Handled Object Oriented Design (OOD) using UML. Used MVC to develop UML diagrams 
+Created Session Beans to retrieve records from the database 
+Called database procedure’s using PERL scripts 
+Developed Java Mail Applications using SMTP, POP3 protocols 
+Wrote XSL/ <START:Skill> XSLT <END>  templates for transforming data and presenting data in browser 
+Developed OOAD documents using UML Rational Rose 
+Developed  <START:Skill> J2EE <END>  web-based applications using BEA Weblogic 
+Environment: Java 1.3, C++, CF, Dreamweaver (4.0). <START:Skill> JSP <END>   <START:Skill> Struts <END> , Servlets,  <START:Skill> EJB <END> , RMI, UML,  <START:Skill> XML <END> , XSL,  <START:Skill> XSLT <END> ,  <START:Skill> J2EE <END>  1.2, Apache Web Server, BEA Weblogic (5.5), MS Access, Visio Professional, Oracle 8.0, DB2, UNIX (Solaris 2.7/2.6), Windows NT 4.0
+Citicorp , Jacksonville, FL
+September 2001 – June 2002
+As Senior Web Developer, responsibilities included:
+Created Servlets for retrieving data from the  <START:Skill> JSP <END>  Pages and transferring the data to and from Adapters 
+Acquired high-level requirements from the business design projects using UML 
+Developed technical design documents using Class Diagrams and Sequence Diagrams 
+Developed OOAD documents using UML Rational Rose 
+Wrote shell scripts and Perl scripts for system programming 
+Designed and implemented several  <START:Skill> Struts <END>  extensions including a validation enhancement which allows exclusive reliance on the internal  <START:Skill> Struts <END>  form validation mechanism 
+Developed  <START:Skill> J2EE <END>  applications using BEA Weblogic 
+Developed Java Mail applications using SMTP, POP3 protocols 
+Wrote  <START:Skill> XML <END>  and XSL templates for transforming data 
+Used BEA Weblogic with  <START:Skill> J2EE <END>  (1.1) to view the Exceptions, troubleshooting 
+Wrote HCP Libraries using C++ to communicate with Mainframe 
+Coded  <START:Skill> JSP <END> ’s to get data from Servlets display data in the user interface 
+Environment: Java 1.3, C++,  <START:Skill> JSP <END>   <START:Skill> Struts <END> , Servlets,  <START:Skill> EJB <END> , RMI, UML,  <START:Skill> XML <END> , XSL,  <START:Skill> XSLT <END> ,  <START:Skill> J2EE <END> 1.2, Apache Web Server, BEA Weblogic 5.0, MS Access, Visio Professional, Oracle 8.0, DB2, UNIX(Solaris 2.7/2.6) and Windows NT 4.0
+Ameritrade Inc. Omaha, NE
+May 2000 – August 2001 
+As Web Developer, was involved in the design and development of the Rapid Accounts Online system. Responsibilities included: 
+Developed a servlet as controller to transfer the data to and fro from the client machine to backend server 
+Developed technical design document using class diagrams and sequence diagrams 
+Wrote  <START:Skill> JSP <END>   <START:Skill> Struts <END>  custom tag libraries to preserve the look and feel throughout the application 
+Parsed  <START:Skill> XML <END>  templates using DOM parsers 
+Handled Object Oriented Design (OOD) using UML. Used MVC to develop UML diagrams 
+Created Session Bean to retrieve account information from the database 
+Developed OOAD documents using UML Rational Rose 
+Developed  <START:Skill> J2EE <END>  web-based applications using BEA Weblogic 
+Updated the database for the specified customer profile using Entity Bean 
+Supported Production site for Weblogic with  <START:Skill> J2EE <END>  (1.1) to view the exceptions, troubleshooting the Application Server console and modifying the applications 
+Developed OOAD using UML Rational Rose 
+Developed PERL modules and converted CGI-PERL application to java/ <START:Skill> J2EE <END> 
+Wrote XSL/ <START:Skill> XSLT <END>  templates to transform data 
+Tested applications using  <START:Skill> JUnit <END>  for Unit and Regression testing 
+Created and maintained the CRON jobs to trigger the database update in regular intervals based on the external requests to update 
+Environment: Java 1.3,  <START:Skill> JSP <END>   <START:Skill> Struts <END> ,  <START:Skill> EJB <END> , C++, Servlets, UML,  <START:Skill> JUnit <END> ,  <START:Skill> XML <END> , XSL,  <START:Skill> XSLT <END> ,  <START:Skill> J2EE <END>  1.0, Weblogic5.0, JBuilder, Oracle 8.0, Visio Professional, Perl, Apache Web Server, UNIX (Solaris 2.7/2.6), Windows NT 4.0
+ECS-Global Tele-Systems Inc , Mahape, Mumbai, India
+March 1999 – May 2000 
+As Web Developer, was involved in the design and development of the Payment Gateway system. Responsibilities included:
+Involved in design, coding and testing of GTL Payment Portal module in the Payment Gateway using Java and Servlets 
+Used connection Pools in BEA Weblogic to connect to Oracle 
+Developed OOAD documents using UML Rational Rose 
+Developed and deployed Java Servlets,  <START:Skill> JSP <END> , and  <START:Skill> EJB <END>  components in BEA Weblogic 
+Extensively used BEA Weblogic to view the  <START:Skill> JSP <END>  exceptions in Weblogic console and modify the  <START:Skill> JSP <END>  Pages 
+Created Session Bean to retrieve account information from the database 
+Entity Bean is used to updated the database for the specified customer profile 
+Wrote C++ libraries to Oracle database 
+Sent information to the banks using various mechanisms and  <START:Skill> XML <END>  format. 
+Decoded the  <START:Skill> XML <END>  data using Java- <START:Skill> XML <END>  Dom Parsers 
+Environment:  <START:Skill> HTML <END> , Java, C++, Servlets,  <START:Skill> JSP <END> ,  <START:Skill> XML <END> ,  <START:Skill> EJB <END> , Oracle 8.0, SWING, Sybase, JBuilder, Apache Web Server, BEA Weblogic
+Emerson & Associates, KCG Electronics Ltd. Guindy, Chennai
+August 1998 - February 1999 
+As Software Engineer, responsibilities included:
+Analyzed, designed, coded and developed background work to develop web pages 
+Involved in FAQ, search engine module in server side coding using Java Servlets 
+Used  <START:Skill> HTML <END>  code developed the front end designing of the project and also developed coding for the Java Servlets to retrieve data from database 
+Developed Java Bean components to access  <START:Skill> JSP <END> ’s 
+Accessed Oracle database using JDBC 
+Validated Client side using _JavaScript 
+Environment: Java, Servlets, JDBC,  <START:Skill> JSP <END> , Java Beans, _JavaScript, Apache Web Server (HP-UX, Sun-OS), BEA Weblogic (5.0), Oracle 8.0
+Soccer’s Life, KCG Electronics Ltd. 
+January 1998 - July 1998 
+As Software Engineer, responsibilities included:
+Involved in developing registration and FAQ's servlet using Java and Servlets 
+Validated Client Side in registration using Java applets and Applet to servlet communication 
+Accessed Oracle database using JDBC. Developed the various validations required for this project 
+Developed shell scripts using UNIX tools including grep, awk, sed and cut 
+Environment:  <START:Skill> HTML <END> , Java Servlets,  <START:Skill> JSP <END> , Java Beans, _JavaScript, Java 1.2, Oracle 8.0, Apache Web Server (HP -UX), BEA Weblogic, Visual Cafe
+Agate, KCG Electronics Ltd. 
+February 1997 – December 1997
+As a Software Engineer, responsibilities included:
+Involved in developing the purchase Order, Receipt Servlets using Java Web Server. 
+Used  <START:Skill> HTML <END>  code developed the front end designing of the project and also developed coding for the servlets to retrieve data from database. 
+Accessed Oracle database using JDBC. Developed the various validations required for this project 
+Involved in purchase order and receipts modules in Java Server side coding Java Servlets 
+Environment:  <START:Skill> HTML <END> , JDBC, Java Servlets, _JavaScript, Java 1.1, Oracle 7.X, Apache Web Server (SUN-OS)
+
+EDUCATION:
+Masters Computer Science, University of Madras
+
+
+Inside DOC...
+
+
+Leroy Liu
+
+Java/ <START:Skill> J2EE <END>  Developer
+
+
+
+Summary:
+
+8 years of experience in the design and development of software applications using Object-Oriented Programming and Java/ <START:Skill> J2EE <END>  technologies. 
+
+Profound experience on Implementation of complex Client/Server and Intranet/Web based n-tier systems in a variety of domains like Banking, Insurance, and E-commerce.
+
+Hands on experience on planning, estimation, designing, developing and negotiation on application development issues with internal and customer resources, expertise in system study, design, development, code review, maintenance, deployment, documentation and testing of presentation, business logic, database access layer for various domains.
+
+Strong knowledge of OOAD (Object Oriented Analysis and Development), OOP (Object Oriented Programming) and applying OO principles in full Software Development Life Cycle.
+
+Expertise in Java, Multithreading, Exception Handling, Servlets,  <START:Skill> JSP <END> , Custom Tag Libraries,  <START:Skill> Struts <END> ,  <START:Skill> Spring <END> ,  <START:Skill> Hibernate <END> , Enterprise Java Beans, JDBC.
+
+Excellent Knowledge of various Web & Persistence frameworks like  <START:Skill> Struts <END> ,  <START:Skill> Spring <END> , and  <START:Skill> Hibernate <END> .
+
+Experience in web technologies like  <START:Skill> HTML <END> ,  <START:Skill> XML <END> , JavaScript,  <START:Skill> AngularJS <END> ,  <START:Skill> jQuery <END> ,  <START:Skill> AJAX <END> , and  <START:Skill> CSS <END> .
+
+Experience in SOA implementation using  <START:Skill> SOAP <END>  and  <START:Skill> XML <END>  processing APIs,  <START:Skill> REST <END>   <START:Skill> Web Services <END> .
+
+Experience in building applications on Application/Web Servers like Apache Tomcat, JBoss, BEA WebLogic, and IBM WebSphere.
+
+Exposure in creating Use Cases, Classes, Sequences and activity Diagrams using Rational Rose.
+
+Experienced in using various IDEs like Eclipse, RAD,  <START:Skill> Spring <END>  Tool Suite, and NetBeans.
+
+Extensive experience in Database design and development that involves ER Modelling, Relational Database Schema, writing queries using  <START:Skill> SQL <END> .
+
+Experience working with different databases such as Oracle, MySQL,  <START:Skill> SQL <END>  Server, and DB2.
+
+Good knowledge of  <START:Skill> SQL <END>  programming language in Oracle PL/ <START:Skill> SQL <END>  database environments. Developed stored procedures, triggers, views, complex join queries. Strong and in-depth knowledge of various relation database systems.
+
+Hands on experience with  <START:Skill> JUnit <END>  in performing unit test and  <START:Skill> Log4J <END>  in determining the application functionality.
+
+Experience with Bug tracking tools like JIRA, Clear Quest, and Quality Center.
+
+Experienced in software versioning and revision control tools like  <START:Tool> SVN <END>  and  <START:Tool> CVS <END> .
+
+Experience in various Design Patterns such as MVC, DAO, Front Controller, Session Façade, Singleton, and Factory.
+
+Excellent understanding of Test-driven development, Software Development Life Cycle (SDLC) methodologies like Agile and Scrum.
+
+Have the motivation to take independent responsibility as well as ability to contribute and be a productive team member.
+
+Education: Master of Science
+
+
+
+Technical Skills: Java, C++,  <START:Skill> SQL <END> , Servlets,  <START:Skill> JSP <END> , JDBC,  <START:Skill> Web Services <END> ,  <START:Skill> JMS <END> ,  <START:Skill> EJB <END> ,  <START:Skill> HTML <END> ,  <START:Skill> XML <END> , JAXB, JavaScript, JSON,  <START:Skill> CSS <END> ,  <START:Skill> AJAX <END> ,  <START:Skill> Struts <END>  1.x,  <START:Skill> Hibernate <END>  3.x/4.x,  <START:Skill> Spring <END>  3.x/4.x, Apache Tomcat 6.x/7.x, JBoss 5.x, IBM WebSphere 8.x, BEA WebLogic 10, Oracle 10g/11g, MySQL 4.x/5.x,  <START:Skill> SQL <END>  Server, DB2, Eclipse, STS, RAD,  <START:Skill> JUnit <END> ,  <START:Skill> Log4J <END> , Ant,  <START:Skill> Maven <END> ,  <START:Tool> CVS <END> ,  <START:Tool> SVN <END> , ClearCase, Windows, Linux
+
+
+
+Professional Experience
+
+Cabela’s, Westminster, CO						                           Mar 2015 - Till Date
+
+Java Developer
+
+Cabela's Inc is a direct marketer and specialty retailer of hunting, fishing, camping, shooting, and related outdoor recreation merchandise. The project Firearms Electronic Bound Book (EBB) is a java web application and the objective is to replace the legacy firearms tracking and managing system.
+
+Responsibilities:
+
+Worked as a full stack developer that participated in both front end and back end.
+
+Implemented the web app extensively using  <START:Skill> AngularJS <END>  and Bootstrap for both desktop and mobile.
+
+Integrated third party payment system Payeezy to the current payment system of Cabela’s website.
+
+Developed Controllers, Services, DAOs with  <START:Skill> Spring <END>  Web.
+
+Developed Java web methods calls to communicate with legacy systems like Warehouse Management.
+
+Utilized  <START:Skill> AngularJS <END>  Services to cache data and removed redundant http requests and repeated code.
+
+Configured session timeout with  <START:Skill> Spring <END>  Boot in server side and implemented auto logout functionality.
+
+Wrote and tuned DB2  <START:Skill> SQL <END>  Queries to perform CRUD operations.
+
+Configured BIRT reporting platform in Eclipse and created scalable report designs.
+
+Used  <START:Skill> Selenium <END>  IDE and WebDriver to automate the test of GUI in different browsers.
+
+Created unit test cases and mocked complex classes using  <START:Skill> JUnit <END> , Mockito, and PowerMock.
+
+Followed Agile Methodology and kept pace with progress in each sprint.
+
+Mentored junior developers in programming methodologies and best practices.
+
+Environment: Java,  <START:Skill> Spring <END> ,  <START:Skill> Spring <END>  Boot,  <START:Skill> Hibernate <END> ,  <START:Skill> Web Services <END> ,  <START:Skill> REST <END> ,  <START:Skill> HTML <END> , JavaScript,  <START:Skill> jQuery <END> , JSON,  <START:Skill> CSS <END> ,  <START:Skill> XML <END> ,  <START:Skill> Log4J <END> ,  <START:Tool> SVN <END> ,  <START:Skill> Selenium <END> ,  <START:Skill> JUnit <END> , Mockito, PowerMock, DB 2, Tomcat, Eclipse,  <START:Skill> Spring <END>  Tool Suite, BRIT, and Windows.
+
+
+
+FreshDirect, New York, NY 	  Jun 2014 - Feb 2015
+
+Java Developer
+
+FreshDirect is an online grocer that delivers to residences and offices in the New York City metropolitan area, as well as some areas in New York, New Jersey, Connecticut, and Pennsylvania. The Dispatch Application is part of FreshDirect Express (FDX) Project, which aims same day delivery. This application will help in managing and monitoring the route and resource assignment for FDX order deliveries.
+
+Responsibilities:
+
+Involved in various phases of Software Development Life Cycle (SDLC) like Requirement Gathering, Analysis, Design, and Code Development.
+
+Developed Google Map Web Application for order dispatch using Google Maps JavaScript API.
+
+Developed Front-end Web application using  <START:Skill> JSP <END> ,  <START:Skill> HTML <END> , JavaScript,  <START:Skill> jQuery <END> , and  <START:Skill> CSS <END> .
+
+Implemented  <START:Skill> REST <END> ful  <START:Skill> Web Services <END>  using  <START:Skill> Spring <END>  MVC and JSON.
+
+Implemented Remote Procedure Call (RPC) using JSON-RPC.
+
+Designed and developed DAOs, Services, and Controllers to manage data and implement business logic.
+
+Used  <START:Skill> Spring <END>  JdbcTemplate and  <START:Skill> Hibernate <END>  to interface with the database.
+
+Aced the persistent service, <START:Skill> Hibernate <END>  and <START:Skill> JPA <END> for object mapping with database. Configured xml files for mapping and hooking it with other frameworks like <START:Skill> Spring <END> ,  <START:Skill> Struts <END> .
+
+Implemented transaction management using  <START:Skill> Spring <END>  AOP and Declarative Transaction Management.
+
+Designed various tables required for the project in Oracle database and developed Queries, Prepared Statements, and Stored Procedures.
+
+Exported  <START:Skill> XML <END>  files to PDF using XSL Format and Apache FOP.
+
+Used  <START:Skill> Maven <END>  to manage dependencies and automatic the build process.
+
+Developed Test Cases using  <START:Skill> JUnit <END>  and cooperated with QA team in integration testing. 
+
+Followed Agile Methodology and used JIRA for planning and bug tracking.
+
+Environment: Java,  <START:Skill> J2EE <END> ,  <START:Skill> Spring <END> ,  <START:Skill> Hibernate <END> ,  <START:Skill> Struts <END> , Servlets,  <START:Skill> Web Services <END> ,  <START:Skill> REST <END> , JSON-RPC,  <START:Skill> HTML <END> ,  <START:Skill> JSP <END> , JavaScript,  <START:Skill> jQuery <END> , JSON,  <START:Skill> CSS <END> , Google Maps JavaScript API v3,  <START:Skill> XML <END> ,  <START:Skill> Log4J <END> ,  <START:Tool> SVN <END> ,  <START:Skill> JUnit <END> , Toad, Oracle 11g, Tomcat, WebLogic,  <START:Skill> Spring <END>  Tool Suite, JIRA, and Windows.
+
+
+
+New York Times Company, New York, NY                                                                               Nov 2012 - May 2014
+
+Java Developer
+
+The New York Times Self-Service Ad Portal is an all-in-one place for advertisers to reserve and submit their print and online ads. This E-commerce application enables individual customers to place classified ads, as well as agency users to design and order varies types of ads on the newspaper and website.
+
+Responsibilities:
+
+Analyzed  <START:Skill> Spring <END>  MVC architecture in view of the application workflow and application development. 
+
+Developed the Persistence Layer using  <START:Skill> Hibernate <END>  and  <START:Skill> JPA <END> .
+
+Developed page templates using  <START:Skill> Struts <END>  Tiles framework.
+
+Developed  <START:Skill> JSP <END>  with Custom Tag Libraries for control of the business processes in the middle-tier and was involved in the integration.
+
+Implemented cross cutting concerns like business transactions, logging and monitoring mechanism using  <START:Skill> Spring <END>  AOP.
+
+Developed Stored Procedures for filtering ads depending on selection criteria.
+
+Implemented  <START:Skill> Web Services <END>  based on SOA using  <START:Skill> SOAP <END> ,  <START:Skill> WSDL <END> , and  <START:Skill> XML <END> .
+
+Used DOM Parser to parse the  <START:Skill> XML <END>  response from  <START:Skill> SOAP <END>   <START:Skill> Web Services <END> .
+
+Wrote  <START:Skill> JUnit <END>  test cases and test suites for functionality testing.
+
+Used  <START:Skill> Log4J <END>  for logging and tracing user-desired messages.
+
+Followed Agile and Scrum Methodology in software development.
+
+Development and Integration of the Application using Eclipse IDE and used  <START:Tool> SVN <END>  as version control tool.
+
+Environment: Java,  <START:Skill> J2EE <END> , Servlets,  <START:Skill> Struts <END> ,  <START:Skill> JMS <END> ,  <START:Skill> Hibernate <END> ,  <START:Skill> Spring <END> ,  <START:Skill> EJB <END> ,  <START:Skill> Web Services <END> ,  <START:Skill> SOAP <END> , UML,  <START:Skill> HTML <END> ,  <START:Skill> jQuery <END> , JavaScript,  <START:Skill> CSS <END> ,  <START:Skill> XML <END> ,  <START:Skill> Log4J <END> ,  <START:Tool> SVN <END> ,  <START:Skill> JUnit <END> , Oracle 11g, JBoss, and Windows.
+
+
+
+Hartford Financial Services Group, Hartford, CT                                                                       Aug 2011 - Oct 2012
+
+Java Developer
+
+The Hartford is an American investment and insurance company. In this project, Customer Care website is redesigned to provide customized information for the end users. This application enables clients to access, review and update insurance coverage online. The website functionality is extended by providing customized information to end users and allowing online transactions like paying bills. 
+
+Responsibilities:
+
+Used the  <START:Skill> Spring <END>  framework for building a web application according to MVC design pattern.
+
+Used Controller Servlets for handling requests to manipulate business objects and invoke respective classes for making database updates.
+
+Used Message Driven Beans to read the messages from  <START:Skill> JMS <END>  queues for asynchronous communication.
+
+Implemented the data access layer by using  <START:Skill> Hibernate <END>  with  <START:Skill> Spring <END>  DAO and also developed mapping files and  <START:Skill> POJO <END>  classes.
+
+Developed web pages to display the account transactions and details pertaining to that account using  <START:Skill> HTML <END>  and  <START:Skill> CSS <END> .
+
+Configured  <START:Skill> Spring <END>  and  <START:Skill> EJB <END>  to manage java beans and set their dependencies in a context file.
+
+Wrote JavaScript validations to validate the fields of the user registration screen and login screen. 
+
+Used  <START:Skill> Hibernate <END>  open source ORM framework for persistence management. 
+
+Designed a network of web pages, where the user progresses through an application by selecting links, resulting in the next page being transferred to the user and rendered for their use using  <START:Skill> REST <END> .
+
+Developed Functions, Stored Procedures, and Triggers to process the trades and also established data integrity among tables sitting on Oracle Database.
+
+Used  <START:Skill> Log4J <END>  for tracking errors and debugging the code.
+
+Used Agile Methodology for implementing Iterative development.
+
+Developed Test Cases and Unit Tests for functionality testing using  <START:Skill> JUnit <END> .
+
+Used  <START:Skill> Maven <END>  for building of application.
+
+Environment: Java,  <START:Skill> J2EE <END> , Servlets,  <START:Skill> Hibernate <END> ,  <START:Skill> Spring <END> ,  <START:Skill> EJB <END>  3,  <START:Skill> JSP <END> ,  <START:Skill> XML <END> ,  <START:Skill> REST <END> ,  <START:Skill> Web Services <END> , <START:Skill> JMS <END> ,  <START:Skill> JUnit <END> ,  <START:Skill> Log4J <END> , Oracle,  <START:Tool> WebSphere <END> , <START:Skill> Maven <END> , and Windows.
+
+
+
+SPD Bank, Shanghai, China 		   Feb 2009 - Jul 2011
+
+Software Engineer
+
+Shanghai Pudong Development Bank (SPD Bank) is a Chinese joint-stock commercial bank. SPD Bank has earned respect and good fame in the domestic stock market on account of its outstanding performance and trustworthiness. The application is a part of the online banking that allows customers to set up their e-bills payments as well as inter-account transfers. Once successfully deployed, the application should facilitate online banking via personal computers and mobile devices.
+
+Responsibilities:
+
+Involved in gathering functional requirements, providing cost estimates and performing the design and solution approach.
+
+Created UML diagrams like Class diagrams, Sequence diagrams, and Use case diagrams in different tiers of the module using Rational Rose.
+
+Involved in Java Multithreading programming.
+
+Developed Front-end application using  <START:Skill> HTML <END> , JavaScript and  <START:Skill> CSS <END> .
+
+Developed custom validators in  <START:Skill> Struts <END>  and implemented server side validations.
+
+Developed  <START:Skill> EJB <END>  Session Bean to process user requests and Entity Beans to load and store information from database.
+
+Developed Messaging frame work for Asynchronous service using  <START:Skill> JMS <END> .
+
+Used Session Facade extensively to provide a uniform coarse-grained service layer to separate business object implementation from business service abstraction. 
+
+Wrote Store Procedures for interacting with the database.
+
+Writing Test Plans and Design Specifications for various modules.
+
+Responsible to create, develop and implement  <START:Skill> SOAP <END>   <START:Skill> Web Services <END>  components.
+
+Developed  <START:Skill> Spring <END>  DAO layer using  <START:Skill> Hibernate <END>  with annotations using  <START:Skill> JPA <END> .
+
+Wrote  <START:Skill> JUnit <END>  test cases for classes developed in Service and DAO layer.
+
+Monitored the error logs using  <START:Skill> Log4J <END>  and fixed detected problems.
+
+Environment: Java,  <START:Skill> J2EE <END> ,  <START:Skill> Spring <END> ,  <START:Skill> Struts <END> ,  <START:Skill> Hibernate <END> ,  <START:Skill> JPA <END> , Servlets,  <START:Skill> JSP <END> , JavaScript,  <START:Skill> CSS <END> ,  <START:Skill> EJB <END>  3,  <START:Skill> SOAP <END> ,  <START:Skill> JMS <END> ,  <START:Skill> JUnit <END> , ClearCase,  <START:Skill> SQL <END>  Server, Tomcat, Windows and Linux.

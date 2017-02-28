@@ -5,7 +5,7 @@
 	<artifactId>apache-opennlp</artifactId>
 	<version>01.0.0.01</version>
 	<properties>
-		<opennlp-version>1.6.0</opennlp-version>
+		<opennlp-version>1.5.3</opennlp-version>
 	</properties>
 
 	<dependencies>

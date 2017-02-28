@@ -89,7 +89,7 @@ public class TestTokenizerModel {
 		}
 	}
 
-	@Test
+//	@Test
 	public void testTokenNameFinderModel_Java() {
 		System.out.println("NameFinderModel");
 		try {
@@ -153,6 +153,97 @@ public class TestTokenizerModel {
 		}
 	}
 
+	@Test
+	public void testNameFinderTrainer(){
+		String sourceFileName = "Skills_From_Resume.txt";
+		String outputFileName = "en-skills_generated.bin";
+		String nameFinder = "Skill";
+//		generateTrainerDocument(sourceFileName, outputFileName, nameFinder);
+		
+		
+		StringBuilder strBuilder = new StringBuilder();
+		strBuilder.append("Over 8 years experience in Software Development life Cycle (SDLC) including Requirement Analysis, Design, prototyping, development, Integration, Documentation and testing of applications using Java/J2EE Technologies for various client/server and web applications");
+		strBuilder.append("Experienced in Agile, RUP (Rational Unified Process), software development methodologies and knowledge of UML Diagrams for Object Oriented Design");
+		strBuilder.append("Hands on experience in solving software design issues by applying design patterns including Singleton Pattern, Business Delegator Pattern, Controller Pattern, MVC Pattern, Factory Pattern, Abstract Factory Pattern, DAO Pattern and Template Pattern.");
+		strBuilder.append("Experienced in creative and effective front-end development using JSP, JavaScript, JQuery, HTML 5, Hibernate, Ajax and CSS.");
+		strBuilder.append("Aced the persistent service, Hibernate and JPA for object mapping with database. Configured xml files for mapping and hooking it with other frameworks like Spring, Struts.");
+		strBuilder.append("Extensive knowledge of database such as Postgresql, Oracle, Microsoft SQL Server and Mysql.");
+		strBuilder.append("Strong experience in database design, writing complex SQL Queries and Stored Procedures.");
+		strBuilder.append("Experienced in development of logging standards and mechanism based on Log4J.");
+		strBuilder.append("Strong working experience in insurance and investment applications.  Excellent communication skills to deal with people at all levels. Self-motivated team player with good Analytical, Logical and Problem Solving ability.");
+		String tokens[] = getTokens(strBuilder.toString());
+/*		for(String token : tokens){
+			System.out.println(token);
+		}*/
+		testSkillNameFinderModel(strBuilder,outputFileName);
+		
+	}
+	
+	public void testSkillNameFinderModel(StringBuilder strBuilder, String tokenNameFinderModelFileName){
+		System.out.println("SkillNameFinderModel");
+		try {
+			
+			String tokens[] = getTokens(strBuilder.toString());
+			System.out.println("PATH:= "
+					+ getClass().getClassLoader().getResource(
+							tokenNameFinderModelFileName));
+			
+			InputStream modelFile = new FileInputStream(
+					(getClass().getClassLoader().getResource(
+							tokenNameFinderModelFileName).getFile()));
+
+			TokenNameFinderModel model = new TokenNameFinderModel(modelFile);
+
+			NameFinderME nameFinder = new NameFinderME(model);
+
+			Span nameSpans[] = nameFinder.find(tokens);
+
+			System.out.println(ArrayUtils.toString(Span.spansToStrings(
+					nameSpans, tokens)));
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (InvalidFormatException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressWarnings("deprecation")
+	public void generateTrainerDocument(String sourceFileName, String generatedFileName,String type) {
+		System.out.println("GenerateTrainerDocument");
+		Charset charset = Charset.forName("UTF-8");
+		ObjectStream<NameSample> sampleStream = null;
+		BufferedOutputStream modelOut = null;
+		try {
+			InputStream strm =new FileInputStream(getClass().getClassLoader()
+					.getResource(sourceFileName).getFile()); 
+			ObjectStream<String> lineStream = new PlainTextByLineStream(strm,
+					charset);
+			sampleStream = new NameSampleDataStream(lineStream);
+
+			TokenNameFinderModel model = null;
+			Map<String, Object> mp = new HashMap<String, Object>();
+
+			model = NameFinderME.train("en", type , sampleStream,
+					new HashMap<String, Object>());
+			System.out.println(getClass().getClassLoader()
+					.getResource("").getPath()+generatedFileName);
+			modelOut = new BufferedOutputStream(new FileOutputStream(getClass().getClassLoader()
+					.getResource("").getPath()+generatedFileName));
+			model.serialize(modelOut);
+
+			sampleStream.close();
+			modelOut.close();
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	@After
 	public void cleanup() {
 		System.out.println("Destroy Method");

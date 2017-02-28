@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appdeployment:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:appdeployment="http://www.ibm.com/websphere/appserver/schemas/5.0/appdeployment.xmi" xmi:id="Deployment_1410210206636">
+  <deployedObject xmi:type="appdeployment:ApplicationDeployment" xmi:id="ApplicationDeployment_1410210206636" startingWeight="10" warClassLoaderPolicy="SINGLE">    
+    <modules xmi:type="appdeployment:WebModuleDeployment" xmi:id="WebModuleDeployment_1410210206636" startingWeight="10000" uri="contact-exercise-##VERSION##.war" classloaderMode="PARENT_LAST"/>
+    <classloader xmi:id="Classloader_1410210206636" mode="PARENT_LAST">
+    	<libraries xmi:id="LibraryRef_141021360775" libraryName="CONTACT_EXERCISE_LIB"/>
+    </classloader>
+  </deployedObject>
+</appdeployment:Deployment>

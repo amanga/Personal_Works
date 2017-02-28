@@ -10,7 +10,6 @@
     ])
     
     .config(function($stateProvider, $urlRouterProvider) {
-
 		$stateProvider
 			.state('contact', {
 				url: '/contact',
@@ -41,6 +40,13 @@
 						url: '/editContact',
 						templateUrl: 'views/assets/subviews/editContact.htm',
 						controller : 'EditContactInfoController'
+					}
+				}
+			}).state('contact.viewUpload', {
+				views:{
+					"rightView":{
+						url: '/upload',
+						templateUrl: 'views/assets/subviews/upload.htm',
 					}
 				}
 			});

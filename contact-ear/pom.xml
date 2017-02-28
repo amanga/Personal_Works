@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>contact-ear</artifactId>
+	<packaging>ear</packaging>
+	<name>Contact Exercise EAR</name>
+	<dependencies>
+		<dependency>
+			<groupId>com.contact.exercise</groupId>
+			<artifactId>contact-exercise</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>war</type>
+		</dependency>
+		<dependency>
+			<groupId>com.contact.exercise</groupId>
+			<artifactId>contact-service</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.google.code.maven-replacer-plugin</groupId>
+				<artifactId>maven-replacer-plugin</artifactId>
+				<version>1.4.1</version>
+				<executions>
+					<execution>
+						<phase>prepare-package</phase>
+						<goals> <goal>replace</goal> </goals>
+					</execution>
+				</executions>
+				<configuration>
+					<file>extra/deployment.xml</file>
+					<outputFile>target/extra/deployment.xml</outputFile>
+					<token>##VERSION##</token>
+					<value>${project.version}</value>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ear-plugin</artifactId>
+				<version>2.9</version>
+				<configuration>
+					<displayName>${project.name}</displayName>
+					<generateApplicationXml>true</generateApplicationXml>
+					<generateModuleId>true</generateModuleId>
+					<version>5</version>
+					<defaultJavaBundleDir>lib/</defaultJavaBundleDir>
+					<earSourceDirectory>target/extra</earSourceDirectory>
+					<skinnyWars>true</skinnyWars>
+					<archive>
+						<manifest>
+							<addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+						</manifest>
+					</archive>
+					<modules>
+						<webModule>
+							<groupId>com.contact.exercise</groupId>
+							<artifactId>contact-exercise</artifactId>
+							<contextRoot>ce</contextRoot>
+						</webModule>
+					</modules>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<parent>
+		<groupId>com.contact.exercise</groupId>
+		<artifactId>contact-app</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../contact-app</relativePath>
+	</parent>
+</project>

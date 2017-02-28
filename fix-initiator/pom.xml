@@ -1,0 +1,61 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.fix.engine</groupId>
+	<artifactId>fix-initiator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<repositories>
+		<repository>
+			<id>com.bunge.maven.repository</id>
+			<name>Bunge - Maven 2 Repository</name>
+			<url>http://wpl-nt-dev1.na.dir.bunge.com/maven2</url>
+		</repository>
+		<repository>
+			<id>MarketceteraRepo</id>
+			<url>http://repo.marketcetera.org/maven</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+	</repositories>
+	<dependencies>
+		<!-- QuickfixJ dependencies -->
+		<dependency>
+			<groupId>quickfixj</groupId>
+			<artifactId>quickfixj-core</artifactId>
+			<version>1.5.3</version>
+		</dependency>
+		<dependency>
+			<groupId>quickfixj</groupId>
+			<artifactId>quickfixj-msg-fix44</artifactId>
+			<version>1.5.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.9</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.mina</groupId>
+			<artifactId>mina-core</artifactId>
+			<version>1.1.6</version>
+		</dependency>
+		<!-- End of QuickfixJ dependencies -->
+		<!-- Test dependecies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>

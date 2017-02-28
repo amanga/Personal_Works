@@ -9,8 +9,6 @@
 			$log.info("Contact Information Controller.");
 			$log.info(contacts);
 			$scope.contactItems = contacts;
-			
-			
 		}
 	])
 	.controller('ModelContactInfoController', ['$scope','$modal', '$log', 
@@ -88,5 +86,34 @@
 			};
 			
 		}
-	);
+	).controller('UploadController', function($scope, $modal, $log,$resource,$http){
+		$log.info("Upload Controller.");
+		
+		$scope.uploadFile = function(){
+			$log.info("Upload File...");
+			var myFile = $scope.myFile;
+			console.log("file is :");
+			console.dir(myFile);
+			
+			var uploadUrl = document.getElementsByTagName('base')[0].href+"uploadfile";
+			console.log(uploadUrl);
+  			var newUploadRequest = new FormData();
+  			newUploadRequest.append('file', myFile);
+  			newUploadRequest.append('firstname', $scope.firstName);
+  			newUploadRequest.append('lastname', $scope.lastName);
+  			newUploadRequest.append('email', $scope.email);
+  			newUploadRequest.append('clientid', "xyzClient");
+  			
+  			$http.post(uploadUrl, newUploadRequest,{transformRequest: angular.identity,
+  	            headers: {'Content-Type': undefined}
+  			})
+  			.success(function(){
+  				console.log("success");
+  			})
+  			.error(function(){
+  				console.log("error");
+  			});
+  			
+		};
+	});
 })();
