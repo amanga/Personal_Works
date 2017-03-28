@@ -37,16 +37,12 @@ public class UploadController {
 		
 		logger.info("Upload File Controller.");
 		String originalFileName = filePart.getOriginalFilename();
-		String fileExtension = originalFileName.substring(originalFileName.lastIndexOf("."));
+		String fileExtension = originalFileName.substring(originalFileName.lastIndexOf(".")+1);
 		logger.info("File Name :="+ originalFileName);
 		logger.info("UPloaded File Extension :=" + fileExtension);
 		logger.info("File Size :="+filePart.getSize());
 		logger.info("File Content Type :="+filePart.getContentType());
 		
-		logger.info("First Name :="+ firstName);
-		logger.info("Last Name :="+ lastName);
-		logger.info("email :="+ email);
-		logger.info("Client Id :="+clientId);
 		
 		InputStream inputStream = filePart.getInputStream();
 		

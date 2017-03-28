@@ -23,14 +23,13 @@ import org.springframework.stereotype.Service;
 import com.contact.exercise.domain.CandidateResume;
 import com.contact.exercise.exceptions.ServiceException;
 import com.contact.exercise.service.CandidateInformationService;
-import com.contact.exercise.service.utils.MicrosoftDocumentHelper;
+import com.contact.exercise.service.utils.FileExtension;
+import com.contact.exercise.service.utils.DocumentHelper;
 
 @Service
-public class CandidateInformationServiceImpl implements
-		CandidateInformationService {
+public class CandidateInformationServiceImpl implements CandidateInformationService {
 
-	private static Logger logger = LoggerFactory
-			.getLogger(CandidateInformationServiceImpl.class);
+	private static Logger logger = LoggerFactory.getLogger(CandidateInformationServiceImpl.class);
 
 	@Value("${apache.nlp.tokenized.model.skills.filename}")
 	private String nlpSkillsModelFileName;
@@ -41,41 +40,59 @@ public class CandidateInformationServiceImpl implements
 	@Value("${contact.exercise.resources.path}")
 	private String resourcesPath;
 
-	public boolean save(CandidateResume candidateResume)
-			throws ServiceException {
+	public boolean save(CandidateResume candidateResume) throws ServiceException {
 		boolean rtnFlag = false;
 		logger.info("Inside save method.");
-		System.out.println(resourcesPath + nlpSkillsModelFileName);
+		logger.info("Resource Path:= " + (resourcesPath + nlpSkillsModelFileName));
 		try {
-			String mDocumentData = MicrosoftDocumentHelper
-					.readDocumentIntoString(candidateResume.getInputStream(),
-							candidateResume.getFileExtension());
-
-			String tokens[] = getTokens(mDocumentData);
-
-			String skillsTokenizedModelFilePath = resourcesPath
-					+ nlpSkillsModelFileName;
-			File skillsTokenizedModelFile = new File(
-					skillsTokenizedModelFilePath);
-			InputStream modelFile = new FileInputStream(
-					skillsTokenizedModelFile);
-			TokenNameFinderModel model = new TokenNameFinderModel(modelFile);
-			NameFinderME nameFinder = new NameFinderME(model);
-			Span nameSpans[] = nameFinder.find(tokens);
-			System.out.println(ArrayUtils.toString(Span.spansToStrings(
-					nameSpans, tokens)));
+			String mFileContent = null; 
+			switch (FileExtension.fromString(candidateResume.getFileExtension())) {
+			case DOC:
+				mFileContent  = DocumentHelper.readFromDOC(candidateResume.getInputStream());
+				break;
+			case DOCX:
+				mFileContent  = DocumentHelper.readFromDOCX(candidateResume.getInputStream());
+				break;
+			case PDF:
+				mFileContent  = DocumentHelper.readFromPDF(candidateResume.getInputStream());
+				break;
+			default:
+				
+				break;
+			}
+			
+			logger.info(ArrayUtils.toString(getCandidateSkillTokens(mFileContent)));
+			
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 		return rtnFlag;
 	}
 
+	private String[] getCandidateSkillTokens(String candidateResumeData) throws InvalidFormatException, IOException {
+
+		String[] candidateSkills = null;
+
+		String tokens[] = getTokens(candidateResumeData);
+
+		String skillsTokenizedModelFilePath = resourcesPath + nlpSkillsModelFileName;
+		File skillsTokenizedModelFile = new File(skillsTokenizedModelFilePath);
+		InputStream modelFile = new FileInputStream(skillsTokenizedModelFile);
+		TokenNameFinderModel model = new TokenNameFinderModel(modelFile);
+		NameFinderME nameFinder = new NameFinderME(model);
+		Span nameSpans[] = nameFinder.find(tokens);
+
+		candidateSkills = Span.spansToStrings(nameSpans, tokens);
+
+		
+		return candidateSkills;
+	}
+
 	private String[] getTokens(String phrase) {
 		String tokens[] = null;
 		try {
 
-			InputStream modelFile = new FileInputStream(resourcesPath
-					+ nlpTokenModelFileName);
+			InputStream modelFile = new FileInputStream(resourcesPath + nlpTokenModelFileName);
 
 			TokenizerModel model = new TokenizerModel(modelFile);
 
