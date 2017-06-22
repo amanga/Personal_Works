@@ -12,7 +12,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.bunge.icc.misc.FetchHttpResponse;
+import com.bunge.icc.http.webextract.ReadHttpResponse;
 
 public class FetchHttpResponseTest {
 
@@ -29,26 +29,29 @@ public class FetchHttpResponseTest {
 		
 //		url = "https://www.tutorialspoint.com/";
 		
-		Set<String> uniqueUrls = new HashSet<String>();
+		Set<String> backLinks = new HashSet<String>();
 		
 		List<String> externalLinks = new ArrayList<String>();
 		List<String> subLinks = new ArrayList<String>();
 		
-		FetchHttpResponse httpResposneObj = new FetchHttpResponse();
+		ReadHttpResponse httpResposneObj = new ReadHttpResponse();
 		URLConnection urlConnection = httpResposneObj.establishConnection(url, params);
+		
+		System.out.println(" URL host:="+urlConnection.getURL().getHost());
+		
 		try {
 			if(httpResposneObj.getHTTPStatus(urlConnection)== 200){
 				String responseInStr = httpResposneObj.getGetResponse(urlConnection);
-				List<String> backLinks = httpResposneObj.getAllBacklinks(responseInStr);
-				System.out.println(backLinks.size());
+				 httpResposneObj.getAllBacklinks(responseInStr);
 				Iterator<String> backLinksItr = backLinks.iterator();
 				while(backLinksItr.hasNext()){
-					System.out.println(backLinksItr.next());
+					String href = backLinksItr.next();
 //					uniqueUrls.add(backLinksItr.next());
 				}
 			}
-			System.out.println("Size of Linsk := "+uniqueUrls.size());
 		} catch (IOException e) {
+			e.printStackTrace();
+		}catch (Exception e) {
 			e.printStackTrace();
 		}
 	}

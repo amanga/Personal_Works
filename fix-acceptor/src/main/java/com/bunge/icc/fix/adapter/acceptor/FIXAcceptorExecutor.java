@@ -133,7 +133,7 @@ public class FIXAcceptorExecutor {
 			inputStream = new FileInputStream(args[0]);
 		}
 
-		SessionSettings settings = new SessionSettings("acceptor.cfg");
+		SessionSettings settings = new SessionSettings(inputStream);
 		FIXAcceptorExecutor executor = new FIXAcceptorExecutor(settings);
 		executor.start();
 		

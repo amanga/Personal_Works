@@ -6,6 +6,7 @@
 		<constructor-arg>
 			<list>
 				<value>application-context.xml</value>
+				<value>persistence-context.xml</value>
 			</list>
 		</constructor-arg>
 	</bean>

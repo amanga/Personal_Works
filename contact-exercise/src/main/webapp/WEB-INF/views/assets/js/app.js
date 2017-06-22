@@ -46,7 +46,15 @@
 				views:{
 					"rightView":{
 						url: '/upload',
-						templateUrl: 'views/assets/subviews/upload.htm',
+						templateUrl: 'views/assets/subviews/upload.htm'
+					}
+				}
+			}).state('contact.viewWebsocket', {
+				views:{
+					"rightView":{
+						url: '/websocket',
+						templateUrl: 'views/assets/subviews/websocket.htm',
+						controller : "WebsocketController"
 					}
 				}
 			});

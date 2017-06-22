@@ -115,5 +115,34 @@
   			});
   			
 		};
+	}).controller('WebsocketController', function($scope, $modal, $log,$resource,$http){
+		$log.info("Websocket Controller.");
+		
+		$scope.message = "WebSocket before Init";
+		var webSocket;
+		
+		if((webSocket != undefined) && ( webSocket != WebSocket.CLOSED)){
+			$log.info("WebSocket is already opened.");
+			return;
+		}
+		
+		webSocket = new WebSocket("ws://localhost:9081/ce/echo");
+		
+		webSocket.onopen = function(event){
+			if(event.data === undefined)
+                return;
+
+			$scope.message = $scope.message + " "+ (event.data);
+		};
+		
+		webSocket.onmessage = function(event){
+			$scope.message = $scope.message + " "+ (event.data);
+		};
+		
+		webSocket.onclose = function(event){
+			$scope.message = $scope.message + " "+ (event.data);
+		};
+		
+		
 	});
 })();
