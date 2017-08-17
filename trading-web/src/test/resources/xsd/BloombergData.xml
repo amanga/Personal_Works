@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<ns:bloombergData xsi:type = "ns:bloombergData"  xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"  xmlns:ae = "http://www.tibco.com/xmlns/ae2xsd/2002/05"  xmlns:ns = "http://www.tibco.com/xmlns/ae2xsd/2002/05/ae/BLOOMBERG/securitiesModel" >
+	<processedFields>
+		<item>
+			<fieldName>BID</fieldName>
+			<fieldValue>12.9131</fieldValue>
+		</item>
+		<item>
+			<fieldName>ASK</fieldName>
+			<fieldValue>12.9219</fieldValue>
+		</item>
+	</processedFields>
+	<errorFields/>
+	<securityName>ZAR Curncy</securityName>
+	<userId>bunge:tibcodev</userId>
+	<startTimestamp>2017-07-21T13:55:37.497-0500</startTimestamp>
+	<beforeSendTimestamp>2017-07-21T13:55:37.499-0500</beforeSendTimestamp>
+	<sdkTimestamp>2017-07-21 01:55:37.497</sdkTimestamp>
+</ns:bloombergData>
